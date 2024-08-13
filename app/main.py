@@ -23,9 +23,9 @@ def get_db_connection():
         try:
             conn = connect(
                 host='localhost',
-                database='fastapi',
-                user='postgres',
-                password='028611',
+                database='You database name',
+                user='Your database user name',
+                password='Your database password',
                 port=5432,
                 cursor_factory=RealDictCursor
             )
